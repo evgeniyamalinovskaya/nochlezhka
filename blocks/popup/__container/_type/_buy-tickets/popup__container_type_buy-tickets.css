@@ -1,0 +1,12 @@
+.popup__container_type_buy-tickets {
+  margin: calc(50vh - 360px) calc(50vw - 306px);
+  max-width: 612px;
+  box-shadow: 0px 4px 12px rgba(59, 55, 72, 0.12);
+  border-radius: 24px;
+  max-height: 720px;
+  background-color: #FCFAF7;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+
+}

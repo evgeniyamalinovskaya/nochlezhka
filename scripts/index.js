@@ -182,3 +182,28 @@ donateFormElement.addEventListener('submit', (evt) => {
   closePopup(popupDonate);
   donateFormElement.reset();
 });
+
+const buttonMinus = document.querySelector('.tickets__minus');
+const buttonPlus = document.querySelector('.tickets__plus');
+const currentPrice = document.querySelector('.tickets__price');
+const price = 500;
+const quantity = document.querySelector('.tickets__quantity');
+
+function addPoint() {
+  let point = quantity.value;
+  quantity.value = parseInt(point) + 1;
+  currentPrice.textContent = `${price * quantity.value} ₽`;
+};
+
+function reducePoint() {
+  point = quantity.value;
+  if (point > 1) {
+    quantity.value = parseInt(point) - 1;
+    currentPrice.textContent = `${price * quantity.value} ₽`;
+  } else {
+    quantity.value = parseInt(point);
+  };
+};
+
+buttonPlus.addEventListener('click', addPoint);
+buttonMinus.addEventListener('click', reducePoint);

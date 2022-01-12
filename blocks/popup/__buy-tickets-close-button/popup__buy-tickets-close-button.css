@@ -1,0 +1,9 @@
+.popup__buy-tickets-close-button {
+  width: 24px;
+  height: 24px;
+  background-image: url('../../../images/close-icon.svg');
+  border: none;
+  background-size: contain;
+  margin-top: 14px;
+  padding: 0;
+}

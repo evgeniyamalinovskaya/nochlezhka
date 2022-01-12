@@ -458,6 +458,52 @@
     </div>
   </div>
 
+  <div class="popup popup_type_buy-tickets popup_opened">
+    <div class="popup__container popup__container_type_buy-tickets">
+      <form class="popup__buy-tickets-form" id="buy-tickets">
+        <img src="./images/slider.svg" alt="слайдер" class="popup__slider">
+        <div class="popup__header">
+          <h2 class="popup__title">купить билет</h2>
+          <button type="button" class="popup__buy-tickets-close-button page__button"></button>
+        </div>
+        <p class="popup__donate-text">сумма и количество</p>
+        <div class="tickets">
+          <h2 class="tickets__price">500 ₽</h2>
+          <div class="tickets__button">
+            <button type="button" class="tickets__minus"></button>
+            <input type="text" pattern="^[0-9]+$" class="tickets__quantity" name="quantity" value="1">
+            <button type="button" class="tickets__plus"></button>
+          </div>
+        </div>
+        <p class="popup__donate-text">email</p>
+        <input type="email" name="email" id="email" placeholder="укажите почту для отправки чека"
+             class="popup__email-input" required>
+        <p class="popup__donate-text">способ оплаты</p>
+        <fieldset class="popup__payment-method">
+          <label for="card" class="popup__payment-method-label">
+            <input type="radio" name="payment" id="card" value="банковской картой" class="popup__form-radio" checked>
+            <span class="popup__pseudo-item popup__pseudo-item_payment"></span>
+            <span>банковской картой</span>
+          </label>
+          <label for="paypal" class="popup__payment-method-label">
+            <input type="radio" name="payment" id="paypal" value="paypal" class="popup__form-radio">
+            <span class="popup__pseudo-item popup__pseudo-item_payment"></span>
+            <span>PayPal</span>
+          </label>
+        </fieldset>
+        <p class="popup__offer">Нажимая кнопку «пожертвовать» вы соглашаетесь с условиями <a href="#"
+            class="popup__offer popup__offer_color_blue page__link" target="_blank">оферты</a>, <a href="#"
+            class="popup__offer popup__offer_color_blue page__link" target="_blank">политики</a>
+            в отношении обработки и защиты персональных данных и даёте <a href="#"
+            class="popup__offer popup__offer_color_blue page__link" target="_blank">согласие</a>
+            на их обработку</p>
+        <button class="popup__donate-button page__button" type="submit" form="buy-tickets">
+          <span class="popup__donate-button-text">перейти к оплате</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
   <script src="scripts/index.js"></script>
 </body>
 
