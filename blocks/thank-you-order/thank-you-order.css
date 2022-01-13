@@ -1,0 +1,7 @@
+.thank-you-order {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: #7100ff;
+  min-height: 656px;
+}

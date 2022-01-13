@@ -1,0 +1,6 @@
+.thank-you-order__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 420px;
+}
