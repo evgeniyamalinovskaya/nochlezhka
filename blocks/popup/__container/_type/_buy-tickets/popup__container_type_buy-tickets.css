@@ -8,20 +8,20 @@
   background-color: #FCFAF7;
   box-sizing: border-box;
   flex-direction: column;
-  justify-content: center;
 }
 
 @media (max-width: 768px) {
   .popup__container_type_buy-tickets {
-    margin: 16px auto;
+    margin: calc(50vh - 342px) auto;
     max-width: 360px;
-    max-height: 720px;
+    max-height: 684px;
     border-radius: 24px 24px 0 0;
   }
 }
 
 @media (max-width: 320px) {
   .popup__container_type_buy-tickets {
+    margin: 16px auto;
     max-height: 704px;
   }
 }

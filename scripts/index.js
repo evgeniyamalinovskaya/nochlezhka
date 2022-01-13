@@ -83,6 +83,8 @@ const closeDonateButton = popupDonate.querySelector('.popup__donate-close-button
 const sumOfMoneyButton = popupDonate.querySelectorAll('.popup__sum-of-money')
 const inputSum = popupDonate.querySelector('.popup__sum-of-money-input')
 const header = document.querySelector('.header')
+const closeFormBuyTicketsButton = document.querySelector('.popup__buy-tickets-close-button')
+const popupBuyTickets = document.querySelector('.popup_type_buy-tickets')
 
 function openPopup (popup) {
   popup.classList.add('popup_opened')
@@ -144,6 +146,10 @@ closeDonateButton.addEventListener('click', function () {
   closePopup(popupDonate)
 })
 
+closeFormBuyTicketsButton.addEventListener('click', function () {
+  closePopup(popupBuyTickets)
+})
+
 sumOfMoneyButton.forEach(function (item) {
   item.addEventListener('click', function () {
     sumOfMoneyButton.forEach(function (item) {
@@ -183,11 +189,13 @@ donateFormElement.addEventListener('submit', (evt) => {
   donateFormElement.reset();
 });
 
-const buttonMinus = document.querySelector('.tickets__minus');
-const buttonPlus = document.querySelector('.tickets__plus');
-const currentPrice = document.querySelector('.tickets__price');
+const formBuyTickets = document.querySelector('.popup_type_buy-tickets');
+const buttonMinus = formBuyTickets.querySelector('.tickets__minus');
+const buttonPlus = formBuyTickets.querySelector('.tickets__plus');
+const currentPrice = formBuyTickets.querySelector('.tickets__price');
 const price = 500;
-const quantity = document.querySelector('.tickets__quantity');
+const quantity = formBuyTickets.querySelector('.tickets__quantity');
+const emailFormBuyTickets = formBuyTickets.querySelector('.popup__email-form-buy-tickets');
 
 function addPoint() {
   let point = quantity.value;
@@ -203,7 +211,25 @@ function reducePoint() {
   } else {
     quantity.value = parseInt(point);
   };
+  return currentPrice.textContent;
 };
+
+quantity.addEventListener('change', (event) => {
+  currentPrice.textContent = `${price * parseInt(event.target.value)} ₽`;
+});
 
 buttonPlus.addEventListener('click', addPoint);
 buttonMinus.addEventListener('click', reducePoint);
+
+const buttonBuyTickets = formBuyTickets.querySelector('.popup__donate-button');
+
+function showInfoInConsole(evt) {
+  evt.preventDefault();
+  console.log ('количество билетов: ' + quantity.value);
+  console.log ('сумма: ' + currentPrice.textContent);
+  console.log ('email: ' + emailFormBuyTickets.value);
+  console.log ('способ оплаты: ' + formBuyTickets.querySelector('[type="radio"]:checked').value);
+  closePopup(popupBuyTickets);
+}
+
+buttonBuyTickets.addEventListener('click', showInfoInConsole);
