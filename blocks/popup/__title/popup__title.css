@@ -3,4 +3,20 @@
   font-size: 48px;
   line-height: 52px;
   font-weight: 500;
+  color: #3B3748;
+}
+
+@media (max-width: 768px) {
+  .popup__title {
+
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  .popup__title {
+    font-size: 32px;
+    line-height: 36px;
+  }
 }

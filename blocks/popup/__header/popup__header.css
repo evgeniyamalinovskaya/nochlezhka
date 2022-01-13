@@ -1,4 +1,11 @@
 .popup__header {
   display: flex;
   justify-content: space-between;
+
+}
+
+@media (max-width: 768px) {
+  .popup__header {
+
+  }
 }
