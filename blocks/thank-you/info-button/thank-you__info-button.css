@@ -1,0 +1,13 @@
+.thank-you__info-button {
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border: 2px solid #FFFFFF;
+  width: 93px;
+}
+
+@media screen and (min-width: 768.98px) {
+  .thank-you__info-button {
+    display: flex;
+  }
+}

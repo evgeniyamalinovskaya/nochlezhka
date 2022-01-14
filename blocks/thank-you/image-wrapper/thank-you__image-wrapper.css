@@ -1,0 +1,13 @@
+.thank-you__image-wrapper {
+  max-width: 385, 88px;
+  max-width: 301, 47px;
+}
+
+
+@media screen and (max-width: 876px) {
+  .thank-you__image-wrapper {
+    max-width: 316, 05px;
+    max-height: 247, 36px;
+    margin-top: 44px;
+  }
+}
