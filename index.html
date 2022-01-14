@@ -410,6 +410,7 @@
           <span class="popup__donate-close-button-text">пожертвовать</span>
           <img src="./images/close-icon.svg" alt="закрыть" class="popup__donate-close-button-picture">
         </button>
+
         <p class="popup__donate-text">сумма</p>
         <div class="popup__sum-of-money-container">
           <button type="button" class="popup__sum-of-money popup__sum-of-money_active page__button">
@@ -427,12 +428,14 @@
           <button type="button" class="popup__sum-of-money page__button">
             <span class="popup__sum-of-money-text">3000 ₽</span>
           </button>
-          <input type="text" name="sum-of-money" id="sum-of-money" placeholder="другая сумма"
-            class="popup__sum-of-money-input">
+          <input type="number" name="sum-of-money" id="sum-of-money" placeholder="другая сумма"
+            class="popup__sum-of-money-input" step="1" min="1">
         </div>
+
         <p class="popup__donate-text">email</p>
-        <input type="email" name="email" id="email" placeholder="укажите почту для отправки чека"
-          class="popup__email-input" required>
+        <input type="email" name="donate-email" id="donate-email" value="sad@mail.ru" placeholder="укажите почту для отправки чека"
+                class="popup__email-input popup__email-form-donate" required>
+
         <p class="popup__donate-text">способ оплаты</p>
         <fieldset class="popup__payment-method">
           <label for="card" class="popup__payment-method-label">
@@ -446,6 +449,7 @@
             <span>PayPal</span>
           </label>
         </fieldset>
+
         <p class="popup__offer">Нажимая кнопку «пожертвовать» вы соглашаетесь с условиями <a href="#"
             class="popup__offer popup__offer_color_blue page__link" target="_blank">оферты</a>, <a href="#"
             class="popup__offer popup__offer_color_blue page__link" target="_blank">политики</a> в отношении обработки
@@ -458,7 +462,7 @@
     </div>
   </div>
 
-  <div class="popup popup_type_buy-tickets popup_opened">
+  <div class="popup popup_type_buy-tickets">
     <div class="popup__container popup__container_type_buy-tickets">
       <form class="popup__buy-tickets-form" id="buy-tickets">
         <img src="./images/slider.svg" alt="слайдер" class="popup__slider">

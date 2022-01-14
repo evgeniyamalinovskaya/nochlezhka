@@ -22,6 +22,5 @@
 @media (max-width: 320px) {
   .popup__container_type_buy-tickets {
     margin: 16px auto;
-    max-height: 704px;
   }
 }
