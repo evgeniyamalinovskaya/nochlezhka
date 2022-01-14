@@ -1,13 +1,14 @@
 .thank-you {
-  margin: 0 auto;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #7100ff;
   min-height: 632px;
 }
 
-@media screen and (max-width: 768.98px) {
-    .thank-you{
-     flex-direction: column-reverse;
-    }
+@media screen and (max-width: 900px) {
+  .thank-you {
+    flex-direction: column-reverse;
+    min-height: 560px;
   }
+}

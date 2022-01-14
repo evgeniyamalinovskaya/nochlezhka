@@ -4,4 +4,5 @@
 @import url(./../blocks/thank-you/info-subtitle/thank-you__info-subtitle.css);
 @import url(./../blocks/thank-you/info-button/thank-you__info-button.css);
 @import url(./../blocks/thank-you/info-button-text/thank-you__info-button-text.css);
-@import url(./../blocks/thank-you/image/thank-you__image.css);
+@import url(./../blocks/thank-you/image-wrapper-contain/thank-you__image-wrapper-contain.css);
+@import url(./../blocks/thank-you/image-wrapper/thank-you__image-wrapper.css);
