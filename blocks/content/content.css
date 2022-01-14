@@ -1,4 +1,15 @@
 .content {
-    width: 100%;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: #3b3748;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 980px) {
+  .content {
+    margin: 0;
+    width: auto;
+  }
 }

@@ -1,0 +1,5 @@
+@media screen and (max-width: 980px) {
+  .form__control_type_back {
+    min-width: 140px;
+  }
+}

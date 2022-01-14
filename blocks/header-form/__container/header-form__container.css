@@ -1,0 +1,18 @@
+.header-form__container {
+  display: flex;
+  max-width: 1440px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1210px) {
+  .header-form__container {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    justify-content: space-between;
+    max-height: 68px;
+    box-sizing: border-box;
+  }
+}

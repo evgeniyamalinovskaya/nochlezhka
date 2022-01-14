@@ -1,0 +1,25 @@
+.form__paragraphs {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+@media screen and (max-width: 980px) {
+  .form__paragraphs {
+    font-size: 16px;
+    line-height: 20px;
+    
+  }
+
+  .form__paragraphs::after {
+    content: '';
+    display: block;
+    height: 1px;
+    margin: 0 -20px;
+    background: #ebe9ed;
+  }
+}
+
+

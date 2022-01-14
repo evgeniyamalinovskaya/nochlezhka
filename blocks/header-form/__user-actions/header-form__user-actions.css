@@ -1,0 +1,13 @@
+.header-form__user-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 1210px) {
+  .header-form__user-actions {
+    justify-content: flex-start;
+    margin-right: 20px;
+  }
+}
