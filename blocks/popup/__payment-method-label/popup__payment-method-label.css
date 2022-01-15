@@ -5,15 +5,15 @@
   padding: 12px 0;
   align-items: center;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 24px;
   color: #3B3748;
   cursor: pointer;
 }
 
-@media screen and (min-width: 768.98px) {
+@media screen and (max-width: 768px) {
   .popup__payment-method-label {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 20px;
   }
 }
