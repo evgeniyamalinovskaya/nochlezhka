@@ -4,3 +4,9 @@
   justify-content: center;
   width: 420px;
 }
+
+@media screen and (max-width: 670px) {
+  .thank-you-order__text {
+    width: 100%;
+  }
+}

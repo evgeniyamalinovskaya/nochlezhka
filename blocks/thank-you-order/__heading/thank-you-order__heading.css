@@ -6,3 +6,11 @@
   color: white;
   margin: 0;
 }
+
+@media screen and (max-width: 670px) {
+  .thank-you-order__heading {
+    font-size: 32px;
+    width: 320px;
+    padding: 0 20px 0 20px;
+  }
+}
