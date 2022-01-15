@@ -1,5 +1,5 @@
 .popup__donate-button {
-  margin: 20px auto 0;
+  margin: 20px auto;
   max-width: 320px;
   width: 100%;
   border: none;
@@ -25,5 +25,7 @@
 @media (max-width: 767px) {
   .popup__donate-button {
     margin: 20px auto 20px auto;
+    font-size: 16px;
+    line-height: 20px;
    }
 }

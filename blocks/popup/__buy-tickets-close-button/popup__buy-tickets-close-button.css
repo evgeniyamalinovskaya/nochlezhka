@@ -9,16 +9,9 @@
   padding: 0;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .popup__buy-tickets-close-button {
     margin-top: 21px;
-    width: 22px;
-    height: 22px;
-  }
-}
-
-@media (max-width: 320px) {
-  .popup__buy-tickets-close-button {
     width: 20px;
     height: 20px;
   }
