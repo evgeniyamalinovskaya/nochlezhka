@@ -6,8 +6,9 @@
   width: 93px;
 }
 
-@media screen and (min-width: 768.98px) {
+@media screen and (min-width: 876px) {
   .thank-you__info-button {
     display: flex;
+
   }
 }
