@@ -1,5 +1,5 @@
 @import url(./../blocks/thank-you/thank-you.css);
-@import url(./../blocks/thank-you/_theme/thank-you_theme-light.css);
+@import url(../blocks/thank-you/_theme/thank-you_theme_light.css);
 @import url(./../blocks/thank-you/info/thank-you__info.css);
 @import url(./../blocks/thank-you/info-title/thank-you__info-title.css);
 @import url(./../blocks/thank-you/info-title/_theme_light/thank-you__info-title_theme_light.css);
