@@ -1,0 +1,13 @@
+@import url(./../blocks/thank-you/thank-you.css);
+@import url(../blocks/thank-you/_theme/thank-you_theme_light.css);
+@import url(./../blocks/thank-you/info/thank-you__info.css);
+@import url(./../blocks/thank-you/info-title/thank-you__info-title.css);
+@import url(./../blocks/thank-you/info-title/_theme_light/thank-you__info-title_theme_light.css);
+@import url(./../blocks/thank-you/info-subtitle/thank-you__info-subtitle.css);
+@import url(./../blocks/thank-you/info-subtitle/_theme_light/thank-you__info-subtitle_theme_light.css);
+@import url(./../blocks/thank-you/info-button/thank-you__info-button.css);
+@import url(./../blocks/thank-you/info-button/_theme_light/thank-you__info-button_theme_light.css);
+@import url(./../blocks/thank-you/info-button-text/thank-you__info-button-text.css);
+@import url(./../blocks/thank-you/image-wrapper-contain/thank-you__image-wrapper-contain.css);
+@import url(./../blocks/thank-you/image-wrapper-contain/_transform_scale/thank-you__image-wrapper-contain_transform_scale.css);
+@import url(./../blocks/thank-you/image-wrapper/thank-you__image-wrapper.css);
