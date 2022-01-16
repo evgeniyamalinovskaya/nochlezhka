@@ -1,0 +1,11 @@
+.button_type_filled {
+  border: 1px;
+  border-radius: 26px;
+  background-color: #7100FF;
+  color: white;
+  transition: background-color .1s ease-in;
+}
+
+.button_type_filled:hover {
+  background-color: #5100B8;
+}

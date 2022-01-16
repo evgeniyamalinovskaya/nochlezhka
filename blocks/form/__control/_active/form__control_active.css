@@ -1,0 +1,9 @@
+.form__control_active {
+  color: white;
+  background-color: #7100ff;
+  border: 2px solid #7100ff;
+}
+
+.form__control_active:hover {
+  background-color: #5100B8;
+}

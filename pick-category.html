@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Гедонизмфест</title>
+    <link rel="stylesheet" href="./pages/pick-category.css" />
+  </head>
+  <body class="container">
+    <div class="page-form">
+      <header class="header-form">
+        <div class="header-form__container">
+          <div class="header-form__bar-logo">
+            <div class="header-form__logo"></div>
+            <button type="button" class="button button_type_link button_place_header">
+              <img src="./images/icon_location.svg" alt="геометка" class="button__icon" />
+              Санкт-Петербург
+            </button>
+          </div>
+          <nav class="header-form__nav-bar">
+            <ul class="header-form__link-list">
+              <li class="header-form__list-item">
+                <a href="#" class="header-form__link">куда пойти</a>
+              </li>
+              <li class="header-form__list-item">
+                <a href="#" class="header-form__link">стать участником</a>
+              </li>
+              <li class="header-form__list-item">
+                <a href="#" class="header-form__link">о фестивале</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header-form__user-actions">
+            <button type="button" class="button button_type_link">
+              <img src="./images/icon_heart.svg" alt="Хочу пойти" class="button__icon" />
+              хочу пойти
+            </button>
+            <button type="button" class="button button_type_filled button_place_header">поддержать</button>
+            <button type="button" class="button button_type_burger"></button>
+          </div>
+        </div>
+      </header>
+
+      <main class="content content_place_category">
+        <h1 class="content__title content__title_hideable">стать участником</h1>
+        <div class="form">
+          <div class="form__container">
+            <p class="form__step">шаг 1 из 4</p>
+            <div class="form__instruction">
+              <p class="form__heading">выберите категорию</p>
+            </div>
+
+            <form class="form__form" id="pick-category" name="pick-category">
+              <fieldset class="form__input-container form__category">
+                <label class="form-input radio-button">
+                  <input class="form__radio" type="radio" name="category_cafe" value="cafe" />
+                  <span>кафе/бар/ресторан</span>
+                  <span class="form-input__checker"></span>
+                </label>
+
+                <label class="form-input radio-button">
+                  <input class="form__radio" type="radio" name="category_master-class" value="master-class" />
+                  <span>мастер-класс/лекция</span>
+                  <span class="form-input__checker"></span>
+                </label>
+
+                <label class="form-input radio-button">
+                  <input class="form__radio" type="radio" name="category_party" value="party" />
+                  <span>посиделки/вечеринка</span>
+                  <span class="form-input__checker"></span>
+                </label>
+
+                <label class="form-input radio-button">
+                  <input class="form__radio" type="radio" name="category_other" value="other" />
+                  <span>другое</span>
+                  <span class="form-input__checker"></span>
+                </label>
+              </fieldset>
+            </form>
+          </div>
+          <div class="form__controls">
+            <button type="button" class="form-input form__control form__control_type_back" onclick="location.href='./index.html';">
+              отмена
+            </button>
+            <button
+              type="submit"
+              id="category-submit"
+              form="pick-category"
+              class="form-input form__control form__control_type_submit"
+            ></button>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer-form">
+        <div class="footer-form__container">
+          <img class="footer-form__image" src="./images/footer_illustration.svg" alt="Ночлежка" />
+          <div class="footer-form__organizer">
+            <h3 class="footer-form__title">организатор:</h3>
+            <ul class="footer-form__links">
+              <li>
+                <a class="footer-form__link" href="https://homeless.ru/">Ночлежка</a>
+              </li>
+              <li>
+                <a class="footer-form__email" href="mailto:info@hedonismfest.ru">info@hedonismfest.ru</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-form__partners">
+            <h3 class="footer-form__title">сделано с любовью:</h3>
+            <ul class="footer-form__links">
+              <li>
+                <a class="footer-form__link" href="https://fastsol.digital/">Fastsol Digital</a>
+              </li>
+              <li>
+                <a class="footer-form__link" href="https://shishki.co/">shishki.collective</a>
+              </li>
+              <li>
+                <a class="footer-form__link" href="https://practicum.yandex.ru/">студентами Яндекс.Практикума</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-form__social">
+            <h3 class="footer-form__title">мы в соцсетях:</h3>
+            <ul class="footer-form__icons">
+              <li class="footer-form__icon">
+                <a href="https://www.facebook.com/Homeless.ru">
+                  <img src="./images/footer_facebook-icon.svg" alt="Фейсбук" />
+                </a>
+              </li>
+              <li class="footer-form__icon">
+                <a href="https://www.instagram.com/nochlezhka/">
+                  <img src="./images/footer_instagram-icon.svg" alt="Инстаграмм" />
+                </a>
+              </li>
+              <li class="footer-form__icon">
+                <a href="https://vk.com/club239781">
+                  <img src="./images/footer_vk-icon.svg" alt="Вконтакте" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./scripts/form-participant.js"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+.form__radio-container {
+  margin-bottom: 16px;
+}
+
+.form__radio-container:last-of-type {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 980px) {
+  .form__radio-container {
+    margin-bottom: 8px;
+  }
+}

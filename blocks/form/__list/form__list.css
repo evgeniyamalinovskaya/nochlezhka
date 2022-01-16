@@ -1,0 +1,22 @@
+.form__list {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background: url(../../../images/arrow_custom.svg) no-repeat right;
+  background-color: #fff;
+  background-position-x: calc(100% - 21px);
+  padding: 12px 20px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+@media screen and (max-width: 980px) {
+  .form__list {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

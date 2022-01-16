@@ -1,0 +1,21 @@
+.question-block {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 40px;
+  height: 112px;
+  border-top: 1px solid #ebe9ed;
+}
+
+.question-block:last-of-type {
+  border-bottom: 1px solid #ebe9ed;
+}
+
+@media screen and (max-width: 980px) {
+  .question-block {
+    padding: 3px 20px;
+    height: max-content;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+}

@@ -1,0 +1,16 @@
+.button_type_burger {
+  display: none;
+}
+
+@media screen and (max-width: 1210px) {
+  .button_type_burger {
+    display: block;
+    border: 1px;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    background-image: url(../../../images/icon_burger.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

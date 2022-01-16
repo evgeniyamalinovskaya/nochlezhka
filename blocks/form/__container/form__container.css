@@ -1,0 +1,17 @@
+.form__container {
+  padding: 0 0 0 0;
+  margin: 0 auto 20px;
+  display: grid;
+  grid-template-columns: minmax(min-content, 309px) minmax(min-content, 531px);
+  column-gap: 40px;
+  row-gap: 12px;
+}
+
+@media screen and (max-width: 980px) {
+  .form__container {
+    padding-bottom: 90px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
