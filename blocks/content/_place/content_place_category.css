@@ -1,0 +1,10 @@
+.content_place_category {
+  padding-bottom: 140px;
+}
+
+
+@media screen and (max-width: 980px) {
+  .content_place_category {
+    padding-bottom: 128px;
+  }
+}

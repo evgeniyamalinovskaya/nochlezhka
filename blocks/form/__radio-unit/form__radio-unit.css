@@ -1,0 +1,23 @@
+.form__radio-unit {
+  min-height: 46px;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+@media screen and (max-width: 980px) {
+  .form__radio-unit {
+    font-size: 16px;
+    gap: 5px;
+    line-height: 20px;
+    min-height: 44px;
+  }
+}

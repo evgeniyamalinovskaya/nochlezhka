@@ -1,0 +1,14 @@
+.thank-you-order__button {
+  margin-right: auto;
+  border: 2px solid white;
+  margin-left: inherit;
+  width: 95px;
+  margin: 0;
+}
+
+@media screen and (max-width: 670px) {
+  .thank-you-order__button {
+    margin-left: 20px;
+    padding: 12px 24px;
+  }
+}

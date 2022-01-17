@@ -1,0 +1,19 @@
+.content__subtitle {
+  padding: 0 0 25px 0;
+  margin: 0;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+@media screen and (max-width: 980px) {
+  .content__subtitle {
+    padding: 20px;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 0px;
+  }
+}
