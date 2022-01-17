@@ -8,7 +8,7 @@
   min-height: 656px;
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 768px) {
   .thank-you-order {
     display: flex;
     flex-direction: column-reverse;
