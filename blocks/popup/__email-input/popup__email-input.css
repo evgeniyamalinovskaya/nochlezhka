@@ -1,5 +1,5 @@
 .popup__email-input {
-  margin: 0 auto 16px;
+  margin: 0 auto;
   border: 2px solid #96949E;
   box-sizing: border-box;
   border-radius: 22px;
@@ -11,6 +11,7 @@
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+
 }
 
 @media screen and (min-width: 768.98px) {

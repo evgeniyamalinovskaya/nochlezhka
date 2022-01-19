@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Гедонизмфест</title>
+  <link rel="stylesheet" href="./pages/other-contacts.css" />
+</head>
+
+<body class="container">
+  <div class="page-form">
+    <header class="header-form">
+      <div class="header-form__container">
+        <div class="header-form__bar-logo">
+          <div class="header-form__logo"></div>
+          <button type="button" class="button button_type_link button_place_header">
+            <img src="./images/icon_location.svg" alt="геометка" class="button__icon" />
+            Санкт-Петербург
+          </button>
+        </div>
+        <nav class="header-form__nav-bar">
+          <ul class="header-form__link-list">
+            <li class="header-form__list-item">
+              <a href="#" class="header-form__link">куда пойти</a>
+            </li>
+            <li class="header-form__list-item">
+              <a href="#" class="header-form__link">стать участником</a>
+            </li>
+            <li class="header-form__list-item">
+              <a href="#" class="header-form__link">о фестивале</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-form__user-actions">
+          <button type="button" class="button button_type_link">
+            <img src="./images/icon_heart.svg" alt="Хочу пойти" class="button__icon" />
+            хочу пойти
+          </button>
+          <button type="button" class="button button_type_filled button_place_header">поддержать</button>
+          <button type="button" class="button button_type_burger"></button>
+        </div>
+      </div>
+    </header>
+
+    <main class="content">
+      <h1 class="content__title content__title_hideable">стать участником</h1>
+      <div class="form">
+        <div class="form__container">
+          <p class="form__step">шаг 3 из 4</p>
+          <div class="form__instruction">
+            <p class="form__heading">укажите контакты и часы работы</p>
+            <div class="form__paragraphs">
+              <p class="form__paragraph">Эти данные появятся в описании карточки вашего мероприятия в нашем каталоге
+                событий</p>
+            </div>
+          </div>
+
+          <form class="form__form" id="other-contacts" name="other-contacts">
+            <fieldset class="form__labeled-container form__labeled-container_place_form">
+              <div class="form__unit">
+                <label class="form__label" for="event-clock">время проведения</label>
+                <input class="form__field" id="event-clock" name="event-clock" type="text"
+                  placeholder="например: 18:00-22:00" value="" onkeyup="clearErrors(this)" />
+                <span class="form__error"></span>
+              </div>
+
+              <div class="form__unit">
+                <label class="form__label" for="event-address">адрес проведения</label>
+                <input class="form__field" id="event-address" name="event-address" type="text"
+                  placeholder="каждый адрес с новой строки" value="" onkeyup="clearErrors(this)" />
+                <span class="form__error"></span>
+              </div>
+
+              <div class="form__unit">
+                <label class="form__label" for="contact-number">номер телефона для бронирования</label>
+                <input class="form__field" id="contact-number" name="contact-number" type="tel" value="+7 ("
+                  oninput="formatPhone(event, this)" onblur="validatePhone(this)" onkeyup="clearErrors(this)" />
+                <span class="form__error"></span>
+              </div>
+
+              <div class="form__unit">
+                <label class="form__label" for="participate-price">стоимость участия</label>
+                <input class="form__field" id="participate-price" name="participate-price" type="text"
+                  placeholder="укажите стоимость в рублях" value="" onkeyup="clearErrors(this)" />
+                <span class="form__error"></span>
+              </div>
+
+              <div class="form__unit">
+                <label class="form__label" for="other-description">описание</label>
+                <textarea class="form__field form-input form__textarea form__textarea_size_l" name="other-description"
+                  id="other-description"
+                  placeholder="Напишите небольшое приглашение своим посетителям. Людям нравятся простые обращения, дружественный тон"
+                  onkeyup="clearErrors(this)"></textarea>
+                <span class="form__error"></span>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+        <div class="form__controls">
+          <button type="button" class="form__control_type_back form-input form__control"
+            onclick="location.href='other-form.html';">
+            назад
+          </button>
+
+          <button onclick="location.href='./thank-you-page.html';" type="submit" form="other-contacts"
+            class="form__control_type_submit form-input form__control form__control_active"></button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer-form">
+      <div class="footer-form__container">
+        <img class="footer-form__image" src="./images/footer_illustration.svg" alt="Ночлежка" />
+        <div class="footer-form__organizer">
+          <h3 class="footer-form__title">организатор:</h3>
+          <ul class="footer-form__links">
+            <li>
+              <a class="footer-form__link" href="https://homeless.ru/">Ночлежка</a>
+            </li>
+            <li>
+              <a class="footer-form__email" href="mailto:info@hedonismfest.ru">info@hedonismfest.ru</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-form__partners">
+          <h3 class="footer-form__title">сделано с любовью:</h3>
+          <ul class="footer-form__links">
+            <li>
+              <a class="footer-form__link" href="https://fastsol.digital/">Fastsol Digital</a>
+            </li>
+            <li>
+              <a class="footer-form__link" href="https://shishki.co/">shishki.collective</a>
+            </li>
+            <li>
+              <a class="footer-form__link" href="https://practicum.yandex.ru/">студентами Яндекс.Практикума</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-form__social">
+          <h3 class="footer-form__title">мы в соцсетях:</h3>
+          <ul class="footer-form__icons">
+            <li class="footer-form__icon">
+              <a href="https://www.facebook.com/Homeless.ru">
+                <img src="./images/footer_facebook-icon.svg" alt="Фейсбук" />
+              </a>
+            </li>
+            <li class="footer-form__icon">
+              <a href="https://www.instagram.com/nochlezhka/">
+                <img src="./images/footer_instagram-icon.svg" alt="Инстаграмм" />
+              </a>
+            </li>
+            <li class="footer-form__icon">
+              <a href="https://vk.com/club239781">
+                <img src="./images/footer_vk-icon.svg" alt="Вконтакте" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="./scripts/form-validator.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+.thank-you-order__footer-wrapper-color {
+  background-color: #fcfaf7;
+}
+
+@media screen and (max-width: 365px) {
+  .thank-you-order__footer-wrapper-color {
+    background-color: #ffd400;
+  }
+}

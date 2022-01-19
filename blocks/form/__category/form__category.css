@@ -1,0 +1,11 @@
+.form__category {
+  gap: 12px;
+  padding-bottom: 12px;
+}
+
+
+@media screen and (max-width: 980px) {
+  .form__category {
+    padding-top: 10px;
+  }
+}

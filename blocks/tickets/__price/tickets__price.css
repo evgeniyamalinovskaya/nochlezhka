@@ -1,0 +1,19 @@
+.tickets__price {
+  margin: 0;
+  display: block;
+  width: 336px;
+  font-size: 48px;
+  line-height: 52px;
+  font-weight: 500;
+  color: #7100FF;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .tickets__price {
+    text-align: left;
+    width: 180px;
+    font-size: 32px;
+    line-height: 36px;
+  }
+}

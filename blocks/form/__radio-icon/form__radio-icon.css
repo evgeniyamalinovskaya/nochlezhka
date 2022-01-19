@@ -1,0 +1,5 @@
+.form__radio-icon {
+  width: 22px;
+  height: 22px;
+  background-image: url(../../../images/form/radio_inactive.svg);
+}

@@ -1,0 +1,7 @@
+.footer-form__container {
+  max-width: 1360px;
+  min-width: 320px;
+  display: flex;
+  padding: 80px 40px 74px 40px;
+  margin: 0 auto;
+}

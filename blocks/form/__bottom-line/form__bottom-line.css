@@ -1,0 +1,20 @@
+.form__bottom-line {
+  padding-bottom: 0;
+  border-bottom: 1px solid #ebe9ed;
+}
+
+
+@media screen and (max-width: 980px) {
+  .form__bottom-line {
+    border: none;
+  }
+  
+  .form__bottom-line::after {
+    content: '';
+    display: block;
+    height: 1px;
+    margin: 0 -20px 0 -20px;
+    background: #ebe9ed;
+  }
+}
+

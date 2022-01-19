@@ -1,0 +1,10 @@
+.participate {
+  padding: 40px 0 80px 0;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 980px) {
+  .participate {
+    padding: 20px 0 0;
+  }
+}

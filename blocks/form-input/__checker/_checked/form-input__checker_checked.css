@@ -1,0 +1,13 @@
+.form-input__checker_checked {
+  display: block;
+  width: 24px;
+  background-image: url(../../../../images/form/checked.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 980px) {
+  .form-input__checker_checked {
+    width: 20px;
+  }
+}

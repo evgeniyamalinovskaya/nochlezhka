@@ -1,0 +1,17 @@
+.thank-you-order {
+  margin: 0 auto;
+  display: grid;
+  align-content: center;
+  grid-template-columns: 471px 413px;
+  justify-content: center;
+  background-color: #7100ff;
+  min-height: 656px;
+}
+
+@media screen and (max-width: 768px) {
+  .thank-you-order {
+    display: flex;
+    flex-direction: column-reverse;
+    min-height: 536px;
+  }
+}

@@ -1,0 +1,28 @@
+.form__error {
+  padding: 0 0 0 24px;
+  margin: 0 0 -24px 0;
+  display: none;
+  color: red;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.form__error::before {
+  content: '';
+  padding: 0 0 0 24px;
+  margin: 0 12px 0 0;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../../images/form/error_icon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 980px) {
+  .form__error::before {
+    padding: 0 0 0 20px;
+    margin: 0 8px 0 0;
+    width: 20px;
+    height: 20px;
+  }
+}

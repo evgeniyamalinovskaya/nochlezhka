@@ -1,0 +1,10 @@
+.button_type_link {
+  color: rgba(59, 55, 72, 1);
+  background: transparent;
+  margin-right: 8px;
+  transition: color .2s ease-in;
+}
+
+.button_type_link:hover {
+  color: #5100B8;
+}

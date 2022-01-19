@@ -1,0 +1,14 @@
+.form__step {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 980px) {
+  .form__step {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
