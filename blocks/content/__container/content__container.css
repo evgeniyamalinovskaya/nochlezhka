@@ -1,0 +1,5 @@
+@media screen and (max-width: 980px) {
+  .content__container {
+    padding-bottom: 98px;
+  }
+}

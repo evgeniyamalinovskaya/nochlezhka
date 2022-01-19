@@ -1,0 +1,5 @@
+@media screen and (max-width: 876px) {
+  .thank-you__image-wrapper-contain_transform_scale {
+    transform: scaleX(-1);
+  }
+}

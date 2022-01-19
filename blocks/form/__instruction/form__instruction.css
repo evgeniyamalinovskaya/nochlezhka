@@ -1,0 +1,9 @@
+.form__instruction {
+  padding: 0;
+  margin: 0;
+
+  font-size: 18px;
+  line-height: 24px;
+
+  grid-row: 2;
+}

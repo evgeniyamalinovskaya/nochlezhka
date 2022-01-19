@@ -1,0 +1,14 @@
+.form__labeled-container {
+  padding: 0;
+  margin: 20px 0 0 0;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  border: none;
+}
+
+@media screen and (max-width: 980px) {
+  .form__labeled-container {
+    gap: 16px;
+  }
+}

@@ -1,0 +1,16 @@
+.thank-you-order__heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 52px;
+  color: white;
+  margin: 0;
+}
+
+@media screen and (max-width: 670px) {
+  .thank-you-order__heading {
+    font-size: 32px;
+    width: 320px;
+    padding: 0 20px 0 20px;
+  }
+}
