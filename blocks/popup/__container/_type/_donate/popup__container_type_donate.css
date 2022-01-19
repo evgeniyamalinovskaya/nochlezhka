@@ -20,10 +20,3 @@
   }
 }
 
-
-@media screen and (max-width: 767px) {
-  .popup__container_type_donate {
-    max-width: 360px;
-    max-height: 780px;
-    }
-}

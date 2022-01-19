@@ -1,9 +1,0 @@
-.form__textarea_size_m {
-  min-height: 72px;
-}
-
-@media screen and (max-width: 980px) {
-  .form__textarea_size_m {
-    min-height: 60px;
-  }
-}

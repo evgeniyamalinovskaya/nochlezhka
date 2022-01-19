@@ -1,14 +1,14 @@
 .popup__donate-button-text {
   font-weight: 500;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 20px;
   color: #FCFAF7;
   margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768.98px) {
   .popup__donate-button-text {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 24px;
   }
 }
