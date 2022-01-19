@@ -12,14 +12,8 @@
 
 .popup__form-radio:checked + .popup__pseudo-item_payment {
   background-image: url(../../../images/radio-checked.svg);
-  width: 18.33px;
-  height: 18.33px;
+  width: 24px;
+  height: 24px;
   background-size: cover;
 }
 
-@media screen and (min-width: 768.98px) {
-  .popup__form-radio:checked + .popup__pseudo-item_payment {
-    width: 22px;
-    height: 22px;
-  }
-}
