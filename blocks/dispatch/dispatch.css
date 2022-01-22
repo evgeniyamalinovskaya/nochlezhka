@@ -1,4 +1,4 @@
-.thank-you {
+.dispatch {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 900px) {
-  .thank-you {
+  .dispatch {
     flex-direction: column-reverse;
     min-height: 560px;
   }
