@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Спасибо за заявку</title>
-  <link rel="stylesheet" href="pages/index.css"> <!-- файл стилей -->
+  <link rel="stylesheet" href="pages/index.css"> <!-- файл стилей для главной страницы-->
+  <link rel="stylesheet" href="pages/gratitude-page.css"><!-- файл стилей для страницы благодарности-->
   <link rel="stylesheet" href="pages/thank-you-page.css">
 </head>
 
@@ -25,7 +26,7 @@
           <a class="header__navigation-link page__link" href="#">
             <p class="header__link-text">стать участником</p>
           </a>
-          <a class="header__navigation-link page__link" href="./index.html">
+          <a class="header__navigation-link page__link" href="#">
             <p class="header__link-text">о фестивале</p>
           </a>
         </nav>
@@ -36,144 +37,40 @@
         <button class="header__menu-button page__button" type="button">
           <img src="./images/menu.svg" alt="menu">
         </button>
-        <button class="header__donate-button page__button" type="button">
-          <span class="header__donate-text">поддержать</span>
-        </button>
+        <a class="page__link" href="./gratitude-page.html">
+          <button class="header__donate-button page__button" type="button">
+            <span class="header__donate-text">поддержать</span>
+          </button>
+        </a>
       </div>
     </div>
   </header>
 
   <main class="content">
 
-    <section class="thank-you-order">
-
-      <div class="thank-you-order__text">
-        <h1 class="thank-you-order__heading">спасибо за заявку!</h1>
-        <p class="thank-you-order__description">с вами свяжутся в ближайшее время</p>
-        <a href="./index.html" class="events__link events__link_type_view-all thank-you-order__button">на главную</a>
+    <section class="dispatch">
+      <div class="dispatch__info">
+        <h1 class="dispatch__info-title">спасибо&nbsp;за заявку!</h1>
+        <p class="dispatch__info-subtitle">с вами свяжутся в ближайшее время</p>
+        <a href="./index.html" class="events__link events__link_type_view-all dispatch__info-button">на главную</a>
       </div>
-      <img class="thank-you-order__glasses-img" src="./images/order-img.svg" alt="order">
-
+      <div class="dispatch__image-wrapper dispatch__image-wrapper_order">
+        <img class="dispatch__image-wrapper-contain" src="./images/glasses.svg"
+          alt="иллюстрация выражающая благодарность" class="dispatch__image">
+      </div>
     </section>
 
     <section class="events">
       <div class="events__wrapper">
         <h2 class="events__title">просто приятно посетить</h2>
-
-        <ul class="events__cards-container">
-          <li class="events__card">
-            <button type="button" aria-label="Мне нравится" class="events__like-button"></button>
-            <a href="#" class="events__card-image-link"><img src="./images/events-lecture.png"
-                alt="Иллюстрация к лекции" class="events__card-image"></a>
-            <div class="events__card-nameplate">
-              <div class="events__card-details-container">
-                <p class="events__card-detail events__card-detail_type_category">лекция</p>
-                <p class="events__card-detail events__card-detail_type_date">1 мая, 12:30-13:50</p>
-              </div>
-              <div class="events__card-title-container">
-                <a href="#" class="events__card-title">идентичность: почему нам сложно меняться?</a>
-                <p class="events__card-description">лектор: Мария Бархатова</p>
-              </div>
-              <div class="events__card-details-container events__card-details-container_position_bottom">
-                <p class="events__card-detail events__card-detail_type_place">улица Блохина, 22</p>
-                <a href="#" class="events__card-detail events__card-detail_type_extra-options">+ ещё <span
-                    class="events__counter">3</span></a>
-              </div>
-            </div>
-          </li>
-
-          <li class="events__card">
-            <button type="button" aria-label="Мне нравится" class="events__like-button"></button>
-            <a href="#" class="events__card-image-link"><img src="./images/events-restaurant.png"
-                alt="Иллюстрация к лекции" class="events__card-image"></a>
-            <div class="events__card-nameplate">
-              <div class="events__card-details-container">
-                <p class="events__card-detail events__card-detail_type_category">еда и напитки</p>
-                <p class="events__card-detail events__card-detail_type_date">Пн-Вс, 10:00-22:00</p>
-              </div>
-              <div class="events__card-title-container">
-                <a href="#" class="events__card-title">xачапури и вино</a>
-                <p class="events__card-description">капучино, эспрессо и американо в пользу Ночлежки</p>
-              </div>
-              <div class="events__card-details-container events__card-details-container_position_bottom">
-                <p class="events__card-detail events__card-detail_type_place">Малая Конюшенная улица, </p>
-                <a href="#" class="events__card-detail events__card-detail_type_extra-options">+ ещё <span
-                    class="events__counter">4</span></a>
-              </div>
-            </div>
-          </li>
-
-          <li class="events__card">
-            <button type="button" aria-label="Мне нравится" class="events__like-button"></button>
-            <a href="#" class="events__card-image-link"><img src="./images/events-coffee.png" alt="Иллюстрация к лекции"
-                class="events__card-image"></a>
-            <div class="events__card-nameplate">
-              <div class="events__card-details-container">
-                <p class="events__card-detail events__card-detail_type_category">еда и напитки</p>
-                <p class="events__card-detail events__card-detail_type_date">Пн-Вс, 10:00-22:00</p>
-              </div>
-              <div class="events__card-title-container">
-                <a href="#" class="events__card-title">coffee therapy</a>
-                <p class="events__card-description">кофе и угощения в пользу Ночлежки</p>
-              </div>
-              <div class="events__card-details-container events__card-details-container_position_bottom">
-                <p class="events__card-detail events__card-detail_type_place">улица Льва Толстого, 5</p>
-                <a href="#" class="events__card-detail events__card-detail_type_extra-options">+ ещё <span
-                    class="events__counter">24</span></a>
-              </div>
-            </div>
-          </li>
-
-          <li class="events__card">
-            <button type="button" aria-label="Мне нравится" class="events__like-button"></button>
-            <a href="#" class="events__card-image-link"><img src="./images/events-cakes.png" alt="Иллюстрация к лекции"
-                class="events__card-image"></a>
-            <div class="events__card-nameplate">
-              <div class="events__card-details-container">
-                <p class="events__card-detail events__card-detail_type_category">посиделки</p>
-                <p class="events__card-detail events__card-detail_type_date"></p>
-              </div>
-              <div class="events__card-title-container">
-                <a href="#" class="events__card-title">апрельский хэллоуин у Ники</a>
-                <p class="events__card-description">закрытое событие</p>
-              </div>
-              <div class="events__card-details-container events__card-details-container_position_bottom">
-                <p class="events__card-detail events__card-detail_type_place"></p>
-                <a href="#" class="events__card-detail events__card-detail_type_extra-options"><span
-                    class="events__counter"></span></a>
-              </div>
-            </div>
-          </li>
-
-          <li class="events__card">
-            <button type="button" aria-label="Мне нравится" class="events__like-button"></button>
-            <a href="#" class="events__card-image-link"><img src="./images/events-cakes.png" alt="Иллюстрация к лекции"
-                class="events__card-image"></a>
-            <div class="events__card-nameplate">
-              <div class="events__card-details-container">
-                <p class="events__card-detail events__card-detail_type_category">посиделки</p>
-                <p class="events__card-detail events__card-detail_type_date"></p>
-              </div>
-              <div class="events__card-title-container">
-                <a href="#" class="events__card-title">апрельский хэллоуин у Ники</a>
-                <p class="events__card-description">закрытое событие</p>
-              </div>
-              <div class="events__card-details-container events__card-details-container_position_bottom">
-                <p class="events__card-detail events__card-detail_type_place"></p>
-                <a href="#" class="events__card-detail events__card-detail_type_extra-options"><span
-                    class="events__counter"></span></a>
-              </div>
-            </div>
-          </li>
-        </ul>
         <a href="./index.html" class="events__link events__link_type_view-all">смотреть все события</a>
       </div>
     </section>
 
   </main>
 
-  <footer class="footer thank-you-order__footer-color">
-    <div class="footer__wrapper thank-you-order__footer-wrapper-color">
+  <footer class="footer">
+    <div class="footer__wrapper">
       <div class="footer__illustration"></div>
       <div class="footer__block-container">
         <div class="footer__block">
@@ -231,129 +128,6 @@
       </div>
     </div>
   </footer>
-
-  <div class="popup popup_type_menu">
-    <div class="popup__container">
-      <div class="popup__content">
-        <p class="popup__navigation-text">ваш город:</p>
-        <button class="popup__change-city-button page__button" type="button">
-          <span class="popup__city-name">Санкт-Петербург</span>
-          <img src="./images/change-city.svg" alt="сменить город" class="popup__change-city-button-picture">
-        </button>
-        <p class="popup__navigation-text">навигация</p>
-        <nav class="popup__navigation">
-          <ul class="popup__list">
-            <li class="popup__list-item">
-              <a href="#" class="popup__link page__link" target="_blank">куда пойти</a>
-            </li>
-            <li class="popup__list-item">
-              <a href="#" class="popup__link page__link" target="_blank">стать участником</a>
-            </li>
-            <li class="popup__list-item">
-              <a href="#" class="popup__link page__link" target="_blank">о фестивале</a>
-            </li>
-          </ul>
-        </nav>
-        <img src="./images/popup-logo.svg" alt="Ночлежка" class="popup__logo">
-        <button class="popup__open-donate-button page__button" type="button">
-          <span class="popup__open-donate-button-text">пожертвовать</span>
-        </button>
-      </div>
-    </div>
-  </div>
-
-  <div class="popup popup_type_change-city">
-    <div class="popup__container">
-      <div class="popup__content">
-        <button class="popup__back-button page__button" type="button">
-          <img src="./images/back.svg" alt="назад" class="popup__back-button-picture">
-          <span class="popup__back-button-text">назад</span>
-        </button>
-        <p class="popup__navigation-text">ваш город:</p>
-        <form name="change-city" class="popup__change-city-form">
-          <label for="Moscow" class="popup__change-city-label">
-            <span>Москва</span>
-            <input type="radio" name="City" id="Moscow" value="Москва" class="popup__form-radio">
-            <span class="popup__pseudo-item"></span>
-          </label>
-          <label for="Sanct-Piterburg" class="popup__change-city-label"> <span>Санкт-Петербург</span>
-            <input type="radio" name="City" id="Sanct-Piterburg" value="Санкт-Петербург" class="popup__form-radio"
-              checked>
-            <span class="popup__pseudo-item"></span>
-          </label>
-          <label for="Sochi" class="popup__change-city-label"> <span>Сочи</span>
-            <input type="radio" name="City" id="Sochi" value="Сочи" class="popup__form-radio">
-            <span class="popup__pseudo-item"></span>
-          </label>
-          <label for="Kaluga" class="popup__change-city-label"> <span>Калуга</span>
-            <input type="radio" name="City" id="Kaluga" value="Калуга" class="popup__form-radio">
-            <span class="popup__pseudo-item"></span>
-          </label>
-          <label for="Ekaterinburg" class="popup__change-city-label"> <span>Екатеринбург</span>
-            <input type="radio" name="City" id="Ekaterinburg" value="Екатеринбург" class="popup__form-radio">
-            <span class="popup__pseudo-item"></span>
-          </label>
-        </form>
-      </div>
-    </div>
-  </div>
-
-  <div class="popup popup_type_donate">
-    <div class="popup__container popup__container_type_donate">
-      <form class="popup__donate-form" name="donate" id="donate">
-        <img src="./images/slider.svg" alt="слайдер" class="popup__slider">
-        <button type="button" class="popup__donate-close-button page__button">
-          <span class="popup__donate-close-button-text">пожертвовать</span>
-          <img src="./images/close-icon.svg" alt="закрыть" class="popup__donate-close-button-picture">
-        </button>
-        <p class="popup__donate-text">сумма</p>
-        <div class="popup__sum-of-money-container">
-          <button type="button" class="popup__sum-of-money popup__sum-of-money_active page__button">
-            <span class="popup__sum-of-money-text">100 ₽</span>
-          </button>
-          <button type="button" class="popup__sum-of-money page__button">
-            <span class="popup__sum-of-money-text">300 ₽</span>
-          </button>
-          <button type="button" class="popup__sum-of-money page__button">
-            <span class="popup__sum-of-money-text">500 ₽</span>
-          </button>
-          <button type="button" class="popup__sum-of-money page__button">
-            <span class="popup__sum-of-money-text">1000 ₽</span>
-          </button>
-          <button type="button" class="popup__sum-of-money page__button">
-            <span class="popup__sum-of-money-text">3000 ₽</span>
-          </button>
-          <input type="text" name="sum-of-money" id="sum-of-money" placeholder="другая сумма"
-            class="popup__sum-of-money-input">
-        </div>
-        <p class="popup__donate-text">email</p>
-        <input type="email" name="email" id="email" placeholder="укажите почту для отправки чека"
-          class="popup__email-input" required>
-        <p class="popup__donate-text">способ оплаты</p>
-        <fieldset class="popup__payment-method">
-          <label for="card" class="popup__payment-method-label">
-            <input type="radio" name="payment" id="card" value="банковской картой" class="popup__form-radio" checked>
-            <span class="popup__pseudo-item popup__pseudo-item_payment"></span>
-            <span>банковской картой</span>
-          </label>
-          <label for="paypal" class="popup__payment-method-label">
-            <input type="radio" name="payment" id="paypal" value="paypal" class="popup__form-radio">
-            <span class="popup__pseudo-item popup__pseudo-item_payment"></span>
-            <span>PayPal</span>
-          </label>
-        </fieldset>
-        <p class="popup__offer">Нажимая кнопку «пожертвовать» вы соглашаетесь с условиями <a href="#"
-            class="popup__offer popup__offer_color_blue page__link" target="_blank">оферты</a>, <a href="#"
-            class="popup__offer popup__offer_color_blue page__link" target="_blank">политики</a> в отношении обработки
-          и защиты персональных данных и даёте <a href="#" class="popup__offer popup__offer_color_blue page__link"
-            target="_blank">согласие</a> на их обработку</p>
-      </form>
-      <button class="popup__donate-button page__button" type="submit" form="donate">
-        <span class="popup__donate-button-text">перейти к оплате</span>
-      </button>
-    </div>
-  </div>
-
 </body>
 
 </html>
