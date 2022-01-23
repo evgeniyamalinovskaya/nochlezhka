@@ -1,10 +1,12 @@
 .dispatch_background_grey-error-page {
   background-color: #FCFAF7;
   min-height: 625px;
+  margin: 10px 0 0;
 }
 
 @media screen and (max-width: 900px) {
   .dispatch_background_grey-error-page {
     min-height: 535px;
+    margin: 0;
   }
 }

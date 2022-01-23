@@ -1,4 +1,11 @@
 .dispatch__info_error-margin_info {
-  margin: 34px 0 0;
+  margin: 0;
   padding: 0;
+  max-width: 460px;
+}
+
+@media screen and (max-width: 900px) {
+  .dispatch__info_error-margin_info {
+    margin: 0 0 0 40px;
+  }
 }
