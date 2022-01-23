@@ -1,0 +1,7 @@
+@import url(./../blocks/dispatch/dispatch.css);
+@import url(./../blocks/dispatch/__info/dispatch__info.css);
+@import url(./../blocks/dispatch/__info-title/dispatch__info-title.css);
+@import url(./../blocks/dispatch/__info-subtitle/dispatch__info-subtitle.css);
+@import url(./../blocks/dispatch/__info-button/dispatch__info-button.css);
+@import url(./../blocks/dispatch/__image-wrapper-contain/dispatch__image-wrapper-contain.css);
+@import url(./../blocks/dispatch/__image-wrapper/dispatch__image-wrapper.css);

@@ -8,7 +8,7 @@
   margin-right: 57px;
 }
 
-@media screen and (max-width: 876px) {
+@media screen and (max-width: 900px) {
   .dispatch__info {
     max-width: 320px;
     width: 100%;

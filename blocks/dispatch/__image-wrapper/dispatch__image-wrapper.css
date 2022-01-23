@@ -1,13 +1,3 @@
 .dispatch__image-wrapper {
-  max-width: 386px;
-  max-height: 301px;
-}
-
-
-@media screen and (max-width: 876px) {
-  .dispatch__image-wrapper {
-    max-width: 316px;
-    max-height: 247px;
-    margin-top: 38px;
-  }
+  display: block;
 }
