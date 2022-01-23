@@ -6,7 +6,7 @@
   width: 120px;
 }
 
-@media screen and (min-width: 876px) {
+@media screen and (min-width: 900px) {
   .dispatch__info-button {
     display: flex;
 

@@ -1,0 +1,10 @@
+.dispatch_gratitude-page {
+  background-color: #7100ff;
+  min-height: 632px;
+}
+
+@media screen and (max-width: 900px) {
+  .dispatch_gratitude-page {
+    min-height: 560px;
+  }
+}
