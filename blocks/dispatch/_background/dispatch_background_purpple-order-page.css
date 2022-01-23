@@ -1,10 +1,12 @@
 .dispatch_background_purpple-order-page {
   background-color: #7100ff;
   min-height: 656px;
+  gap: 18px;
 }
 
 @media screen and (max-width: 900px) {
   .dispatch_background_purpple-order-page {
     min-height: 536px;
+    gap: 0;
   }
 }
