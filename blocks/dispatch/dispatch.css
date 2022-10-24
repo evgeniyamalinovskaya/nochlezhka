@@ -1,0 +1,11 @@
+.dispatch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .dispatch {
+    flex-direction: column-reverse;
+  }
+}

@@ -1,0 +1,9 @@
+@import url(./../blocks/dispatch/_background/dispatch_background_grey-error-page.css);
+@import url(../blocks/dispatch/__info-title/_font_black/dispatch__info-title_font_black.css);
+
+@import url(./../blocks/dispatch/__info-button/_theme_light/dispatch__info-button_theme_light.css);
+
+@import url(./../blocks/dispatch/__image-wrapper-contain/_transform_scale/dispatch__image-wrapper-contain_transform_scale.css);
+
+@import url(./../blocks/dispatch/__image-wrapper/_error-picture/dispatch__image-wrapper_error-picture.css);
+@import url(../blocks/dispatch/__info/_error-margin_info/dispatch__info_error-margin_info.css);

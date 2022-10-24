@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru" class="document">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Спасибо за заявку</title>
+  <link rel="stylesheet" href="pages/index.css"> <!-- файл стилей для главной страницы-->
+  <link rel="stylesheet" href="pages/dispatch-page.css"><!-- файл стилей для страницы благодарности-->
+  <link rel="stylesheet" href="pages/404.css">
+</head>
+
+<body class="page">
+<header class="header">
+  <div class="header__container">
+    <img src="./images/logo.svg" alt="logo" class="header__logo">
+    <div class="header__menu">
+      <button type="button" class="header__location-button page__button">
+        <img src="./images/location.svg" alt="location" class="header__location-image">
+        <span class="header__location-button-text">Санкт-Петербург</span>
+      </button>
+      <nav class="header__navigation">
+        <a class="header__navigation-link page__link" href="#">
+          <p class="header__link-text">куда пойти</p>
+        </a>
+        <a class="header__navigation-link page__link" href="#">
+          <p class="header__link-text">стать участником</p>
+        </a>
+        <a class="header__navigation-link page__link" href="#">
+          <p class="header__link-text">о фестивале</p>
+        </a>
+      </nav>
+      <a class="header__link page__link" href="#" target="_blank">
+        <img src="./images/like.svg" alt="like" class="header__like-image">
+        <p class="header__link-text">хочу пойти</p>
+      </a>
+      <button class="header__menu-button page__button" type="button">
+        <img src="./images/menu.svg" alt="menu">
+      </button>
+      <a class="page__link" href="./gratitude-page.html">
+        <button class="header__donate-button page__button" type="button">
+          <span class="header__donate-text">поддержать</span>
+        </button>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main class="content">
+
+  <section class="dispatch dispatch_background_grey-error-page">
+    <div class="dispatch__info dispatch__info_error-margin_info">
+      <h1 class="dispatch__info-title dispatch__info-title_font_black">ошибка 404</h1>
+      <p class="dispatch__info-subtitle dispatch__info-title_font_black">похоже, такой страницы не&nbsp; существует</p>
+      <a href="./index.html" class="events__link events__link_type_view-all dispatch__info-button dispatch__info-button_theme_light">на главную</a>
+    </div>
+    <div class="dispatch__image-wrapper dispatch__image-wrapper_error-picture">
+      <img class="dispatch__image-wrapper-contain dispatch__image dispatch__image-wrapper-contain_transform_scale"
+      src="./images/error.svg" alt="иллюстрация выражающая ошибку">
+    </div>
+  </section>
+
+  <section class="events">
+    <div class="events__wrapper">
+      <h2 class="events__title">просто приятно посетить</h2>
+      <a href="./index.html" class="events__link events__link_type_view-all">смотреть все события</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer footer_dispatch">
+  <div class="footer__wrapper footer_dispatch">
+    <div class="footer__illustration"></div>
+    <div class="footer__block-container">
+      <div class="footer__block">
+        <h2 class="footer__title">Организатор:</h2>
+        <ul class="footer__link-list">
+          <li class="footer__list-element">
+            <a href="https://homeless.ru/" target="_blank" class="footer__link footer__link_type_regular">Ночлежка</a>
+          </li>
+          <li class="footer__list-element">
+            <a href="mailto:info@hedonismfest.ru" class="footer__link footer__link_type_mail">
+              <p class="footer__link-text">info@hedonismfest.ru</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__block">
+        <h2 class="footer__title">Сделано с любовью:</h2>
+        <ul class="footer__link-list">
+          <li class="footer__list-element">
+            <a href="https://fastsol.digital/" target="_blank" class="footer__link footer__link_type_regular">Fastsol
+              Digital</a>
+          </li>
+          <li class="footer__list-element">
+            <a href="https://shishki.co/" target="_blank"
+               class="footer__link footer__link_type_regular">shishki.collective</a>
+          </li>
+          <li class="footer__list-element">
+            <a href="https://practicum.yandex.ru/" target="_blank"
+               class="footer__link footer__link_type_regular">студентами Яндекс.Практикума</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__block">
+        <h2 class="footer__title">Мы в соцсетях:</h2>
+        <ul class="footer__link-list footer__link-list_type_social">
+          <li class="footer__list-element">
+            <a href="https://www.facebook.com/Homeless.ru" target="_blank"
+               class="footer__link footer__link_type_social">
+              <img class="footer__social-icon" src="./images/facebook-logo.svg" alt="Логотип Facebook">
+            </a>
+          </li>
+          <li class="footer__list-element">
+            <a href="https://www.instagram.com/nochlezhka/" target="_blank"
+               class="footer__link footer__link_type_social">
+              <img class="footer__social-icon" src="./images/instagram-logo.svg" alt="Логотип Instagram">
+            </a>
+          </li>
+          <li class="footer__list-element">
+            <a href="https://vk.com/club239781" target="_blank" class="footer__link footer__link_type_social">
+              <img class="footer__social-icon" src="./images/vkontakte-logo.svg" alt="Логотип Вконтакте">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+
+</html>

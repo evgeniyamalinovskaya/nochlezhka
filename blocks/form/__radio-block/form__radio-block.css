@@ -1,0 +1,14 @@
+.form__radio-block {
+  padding: 0;
+  margin: 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+@media screen and (max-width: 980px) {
+  .form__radio-block {
+    margin: 20px 0 0;
+  }
+}
+

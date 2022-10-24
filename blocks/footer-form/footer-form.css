@@ -1,0 +1,10 @@
+.footer-form {
+  background-color: #EBE9ED;
+  font-family: 'TT Firs Neue', Arial, sans-serif;
+}
+
+@media screen and (max-width: 980px) {
+  .footer-form {
+    display: none;
+  }
+}

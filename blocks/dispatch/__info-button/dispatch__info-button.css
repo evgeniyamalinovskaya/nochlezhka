@@ -1,0 +1,14 @@
+.dispatch__info-button {
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border: 2px solid #FFFFFF;
+  width: 94px;
+}
+
+@media screen and (max-width: 900px) {
+  .dispatch__info-button {
+    display: flex;
+    width: 124px;
+  }
+}

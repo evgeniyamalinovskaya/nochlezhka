@@ -1,0 +1,9 @@
+.footer_dispatch {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+  .footer_dispatch {
+    background-color: #FFD400;
+  }
+}

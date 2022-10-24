@@ -1,0 +1,12 @@
+ .dispatch__image-wrapper_gratitude-picture {
+   max-width: 386px;
+   max-height: 301px;
+ }
+
+ @media screen and (max-width: 900px) {
+   .dispatch__image-wrapper_gratitude-picture {
+     max-width: 316px;
+     max-height: 247px;
+     margin-top: 38px;
+   }
+ }

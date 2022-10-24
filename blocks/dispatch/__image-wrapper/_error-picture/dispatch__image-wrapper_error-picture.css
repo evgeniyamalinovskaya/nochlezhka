@@ -1,0 +1,12 @@
+.dispatch__image-wrapper_error-picture {
+  max-width: 414px;
+  max-height: 308px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .dispatch__image-wrapper_error-picture {
+    max-width: 353px;
+    margin: 11px 0 31px;
+  }
+}

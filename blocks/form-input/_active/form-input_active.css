@@ -1,0 +1,6 @@
+.form-input_active {
+  color: white;
+  background-color: #7100ff;
+  border: 2px solid #7100ff;
+  font-weight: 500;
+}

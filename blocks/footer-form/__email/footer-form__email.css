@@ -1,0 +1,15 @@
+.footer-form__email {
+  color: #7100FF;
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  transition: 0.3s;
+}
+
+.footer-form__email:hover {
+  opacity: 0.5;
+}

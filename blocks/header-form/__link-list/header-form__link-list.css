@@ -1,0 +1,10 @@
+.header-form__link-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  max-width: calc(100% - 53.25px * 2);
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}

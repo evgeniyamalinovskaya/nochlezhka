@@ -1,0 +1,22 @@
+.form__textarea {
+  outline: none;
+  max-height: 200px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  resize: none;
+}
+
+.form__textarea:focus {
+  border: 2px solid #7100FF;
+}
+
+@media screen and (max-width: 980px) {
+  .form__textarea {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

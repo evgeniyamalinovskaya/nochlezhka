@@ -1,5 +1,6 @@
 .page__link {
   transition: opacity 0.2s linear;
+  text-decoration: none;
 }
 
 .page__link:hover {

@@ -1,6 +1,7 @@
 .popup__pseudo-item_payment {
-  height: 20px;
-  width: 20px;
+  display: block;
+  height: 18.33px;
+  width: 18.33px;
   margin-right: 4px;
   background-image: url(../../../../images/radio-disabled.svg);
   background-size: cover;
@@ -8,8 +9,8 @@
 
 @media screen and (min-width: 768.98px) {
   .popup__pseudo-item_payment {
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
     margin-right: 8px;
   }
 }

@@ -1,0 +1,11 @@
+.dispatch__image-wrapper_order-picture {
+  max-width: 386px;
+}
+
+
+@media screen and (max-width: 901px) {
+  .dispatch__image-wrapper_order-picture {
+    max-width: 316px;
+    margin: 42px 0;
+  }
+}
